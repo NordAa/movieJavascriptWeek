@@ -24,3 +24,23 @@ var movies = {
 		"YouTubeID": "v=Rh_BJXG1-44"
 	},
 };
+
+
+let youtube = {
+	getIdFromUrl: function (videoIdOrUrl) {
+		if (videoIdOrUrl.indexOf('http') === 0) {
+			return videoIdOrUrl.split('v=')[1];
+		}
+		else {
+			return videoIdOrUrl;
+		}
+	},
+
+	generateThumbnailUrl: function(videoIdOrUrl) {
+		return 'http://i3.ytimg.com/vi/' + youtube.getIdFromUrl(videoIdOrUrl) + '/default.jpg';
+	},
+
+	generateEmbedUrl: function (videoIdOrUrl) {
+		return 'https://www.youtube.com/embed/' + youtube.getIdFromUrl(videoIdOrUrl);
+	}
+};
