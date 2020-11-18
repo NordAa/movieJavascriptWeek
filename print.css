@@ -10,5 +10,5 @@
   /* don't display on print */
 
   img, .topSectionIndex, .topSectionSingle, .goBack   {
-  	display: none;
+  	display: none !important;
   }
