@@ -1,7 +1,7 @@
 var movies = {
 	"Willow": {
-		"Name": "Willow"
-		"YouTubeID": "v=uzn2izehkno"
+		"Name": "Willow",
+		"YouTubeId": "v=uzn2izehkno"
 	},
 	"UP": {
 		"Title": "Up",
@@ -9,7 +9,7 @@ var movies = {
 	},
   	 "Lord of the Rings": {
 		"Title": "Lord of the Rings",
-		"YouTubeID": "V75dMMIW2B4 "
+		"YouTubeId": "V75dMMIW2B4 "
 	},
   	"The Princess Bride": {
   		"Title": "The princess bride",
@@ -20,8 +20,8 @@ var movies = {
 		"YouTubeId": "P_IVeP3i7B0"
 	},
 	"Indiana Jones": {
-		"Name": "Indiana Jones"
-		"YouTubeID": "v=Rh_BJXG1-44"
+		"Name": "Indiana Jones",
+		"YouTubeId": "v=Rh_BJXG1-44"
 	},
 };
 
@@ -44,3 +44,19 @@ let youtube = {
 		return 'https://www.youtube.com/embed/' + youtube.getIdFromUrl(videoIdOrUrl);
 	}
 };
+
+let url = 'http://www.omdbapi.com/?t=lord+of+the+rings&apikey=dab96338';
+
+fetch(url)
+	.then(response => {
+		return response();
+	})
+	.then(data => {
+		data.forEach(movie => {
+			const movieCard = document.createElement('div');
+			movieCard.setAttribute('class', 'movieCard');
+
+			const 
+		})
+	})
+
