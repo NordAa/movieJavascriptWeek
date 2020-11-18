@@ -51,7 +51,6 @@ let youtube = {
 	}
 };
 
-console.log("Hello world!");
 //fetch the movies variable in this file
 fetch(movies)
 	.then(respnse => {
