@@ -26,12 +26,14 @@ var movies = {
 };
 
 
+
 let youtube = {
 	getIdFromUrl: function (videoIdOrUrl) {
 		if (videoIdOrUrl.indexOf('http') === 0) {
 			return videoIdOrUrl.split('v=')[1];
 		}
 		else {
+			
 			return videoIdOrUrl;
 		}
 	},
