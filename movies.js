@@ -1,7 +1,7 @@
 var movies = {
 	"Willow": {
-		"Name": "Willow"
-		"YouTubeID": "v=uzn2izehkno"
+		"Name": "Willow",
+		"YouTubeId": "v=uzn2izehkno"
 	},
 	"UP": {
 		"Title": "Up",
@@ -20,10 +20,11 @@ var movies = {
 		"YouTubeId": "P_IVeP3i7B0"
 	},
 	"Indiana Jones": {
-		"Name": "Indiana Jones"
-		"YouTubeID": "v=Rh_BJXG1-44"
+		"Name": "Indiana Jones",
+		"YouTubeId": "v=Rh_BJXG1-44"
 	},
 };
+
 
 
 let youtube = {
