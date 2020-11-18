@@ -50,6 +50,7 @@ let youtube = {
 		return 'https://www.youtube.com/embed/' + youtube.getIdFromUrl(videoIdOrUrl);
 	}
 };
+const app = document.getElementById("root")
 
 //fetch the movies variable in this file
 fetch(movies)
