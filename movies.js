@@ -63,7 +63,7 @@ fetch(movies)
 		video.setAttribute('class', 'trailer');
 
 		//add title to the movie
-		const h2 = decument.createElement('h2');
+		const h2 = document.createElement('h2');
 		h2.textContent = movies.Title
 	
 		video.appendChild(h2);
