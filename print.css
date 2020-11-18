@@ -5,3 +5,15 @@
     color: #010203;
     background-color: #fff;
   }
+
+  img {
+  	display: none;
+  }
+
+  .topSectionIndex {
+  	display: none;
+  }
+
+  .topSectionSingle {
+  	display: none;
+  }
