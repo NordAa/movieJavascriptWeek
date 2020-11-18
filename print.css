@@ -6,14 +6,9 @@
     background-color: #fff;
   }
 
-  img {
-  	display: none;
-  }
 
-  .topSectionIndex {
-  	display: none;
-  }
+  /* don't display on print */
 
-  .topSectionSingle {
+  img, .topSectionIndex, .topSectionSingle, .goBack   {
   	display: none;
   }
