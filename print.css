@@ -12,3 +12,9 @@
   img, .topSectionIndex, .topSectionSingle, .goBack   {
   	display: none !important;
   }
+
+
+h1, h2, h3, h4, h5 , h6, .info .infoLeft   {
+	color: #010203;
+}
+
