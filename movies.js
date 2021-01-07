@@ -32,7 +32,7 @@ var movies = {
 	},
 };
 
-let youtube = {
+/*let youtube = {
 	getIdFromUrl: function (videoIdOrUrl) {
 		if (videoIdOrUrl.indexOf('http') === 0) {
 			return videoIdOrUrl.split('v=')[1];
@@ -49,11 +49,19 @@ let youtube = {
 	generateEmbedUrl: function (videoIdOrUrl) {
 		return 'https://www.youtube.com/embed/' + youtube.getIdFromUrl(videoIdOrUrl);
 	}
-};
+};*/
+
 const app = document.getElementById("root")
 
+//creating a container element
+const container = document.createElement('div');
+container.setAttribute('class', 'container');
+
+app.appendChild(logo);
+app.appendChild(container);
+
 //fetch the movies variable in this file
-fetch(movies)
+fetch()
 	.then(respnse => {
 	return Response.json();
 	})
